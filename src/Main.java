@@ -1,7 +1,15 @@
+import java.util.Scanner;
 public class Main {
-    public static void main(String[] args) {
-        System.out.println("Black");
-        System.out.println("Red");
-        System.out.println("Blue");
+    public static void main(String[] args)
+    {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("Введите первое число");
+        float a =scanner.nextInt();
+        System.out.println(a + " первое число");
+        System.out.println("Введите второе число");
+        float b = scanner.nextInt();
+        float c = a / b;
+        System.out.println("Ответ: " + c);
+
     }
 }
