@@ -1,4 +1,4 @@
-public class prjamougolnik {
+public class Square {
     public static void main(String[] args) {
         int a;
         a = 5;

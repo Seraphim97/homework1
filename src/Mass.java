@@ -1,4 +1,4 @@
-public class Massa {
+public class Mass {
     public static void main(String[] args) {
         double f = 73;
         double g = 1.92;
